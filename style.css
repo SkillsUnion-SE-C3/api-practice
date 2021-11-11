@@ -50,6 +50,7 @@
     top: 10vh;
     align-items: center;
     background-color: bisque;
+    border-radius: 35px;
        }
 
   div {
@@ -58,6 +59,11 @@
 
   h3 {
     font-weight: bold;
+    text-decoration: underline;
+  }
+
+  h3:hover{
+      color: rgb(96, 110, 110);
   }
 
   #current-weather{
