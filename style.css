@@ -1,0 +1,85 @@
+*{ 
+    font-family:  "Montserrat", sans-serif;
+  }
+  #description {
+    text-transform: capitalize;
+  }
+  body {
+    margin: 3vh;
+  }
+
+  .container {
+    padding: 5vh;
+    top: 10vh;
+    align-items: center;
+    background-color: bisque;
+       }
+
+  div {
+    margin: 10px;
+  }
+
+  h3 {
+    font-weight: bold;
+  }
+
+  #current-weather{
+    margin: 20px;
+  }
+
+  #city-name {
+    margin: 10px;
+  }
+  @media screen and (max-width: 600px){
+    .row{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  } *{ 
+    font-family:  "Montserrat", sans-serif;
+  }
+  #description {
+    text-transform: capitalize;
+  }
+  body {
+    margin: 3vh;
+  }
+
+  .container {
+    padding: 5vh;
+    top: 10vh;
+    align-items: center;
+    background-color: bisque;
+    border-radius: 35px;
+       }
+
+  div {
+    margin: 10px;
+  }
+
+  h3 {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+
+  h3:hover{
+      color: rgb(96, 110, 110);
+  }
+
+  #temperature{
+      font-size: 28px;
+  }
+
+  #current-weather{
+    margin: 20px;
+  }
+
+  #city-name {
+    margin: 10px;
+  }
+  @media screen and (max-width: 600px){
+    .row{
+      display: grid;
+      grid-template-columns: repeat(3, 1fr);
+    }
+  }
