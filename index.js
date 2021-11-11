@@ -48,7 +48,6 @@ function search(city){
     const url7 = `https://api.openweathermap.org/data/2.5/forecast/daily?q=${city}&cnt=${days}&appid=55219e014878a0eda0e90952b079527d&units=metric`;
     
     axios.get(url).then(currentData);
-    axios.get(url7).then(forecastData);
     
     fetch(url7).then((x) => x.json()).then(forecastData)
     };

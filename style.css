@@ -66,6 +66,10 @@
       color: rgb(96, 110, 110);
   }
 
+  #temperature{
+      font-size: 28px;
+  }
+
   #current-weather{
     margin: 20px;
   }
